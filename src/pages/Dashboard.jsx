@@ -24,7 +24,7 @@ export default function Dashboard() {
   return (
     <div className="page">
       <div className="page-heading dashboard-heading">
-        <div><div className="eyebrow"><Sparkles size={14} /> SHELTER OVERVIEW</div><h1>Good day, shelter team <span>👋</span></h1><p>Here's what's happening at your shelter today.</p></div>
+        <div><div className="eyebrow"><Sparkles size={14} /> SHELTER OVERVIEW</div><h1>Good day, User</h1><p>Here's what's happening at the shelter today.</p></div>
         <Link to="/register" className="button button-primary"><Plus size={17} /> Register animal</Link>
       </div>
       <div className="stat-grid">{stats.map((stat) => <StatCard key={stat.label} {...stat} />)}</div>
